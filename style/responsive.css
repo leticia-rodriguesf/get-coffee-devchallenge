@@ -1,0 +1,57 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        margin-top: 5px;
+        flex-direction: column;
+        position:absolute;
+        align-items: center;
+    }
+
+    header .container ul {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    header nav a{
+        font-size: 16px;
+    }
+    
+    .logo{
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .container-dois{
+        display: block;
+        margin-top: 10px;
+    }
+    
+    .copo{
+        visibility:hidden;
+    }
+
+    .forma2{
+        margin-left: 400px;
+        position: absolute;
+        margin-top: 400px;
+    }
+
+    .forma1{
+        margin-top: 100px;
+    }
+
+    .texto{
+        width: 500px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .botao{
+        margin-left: 80px;
+    }
+
+    .rede-social{
+        margin-top: 190px;
+        margin-left: 200px;
+    }
+}

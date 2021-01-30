@@ -1,0 +1,173 @@
+/*Elementos Base*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+
+/*Barra de navegação*/
+header{
+    padding: 10px 10px;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.container{ /* BARRA FIXA */
+    background-color: white;
+    min-width: 100%;
+    position:fixed;
+    z-index:999; /*Deixa sobre os outros*/
+    left:0;
+    right: 0;
+    top:0;
+    overflow:hidden;
+}
+
+header .container ul{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    margin-left: 980px; /*Separa os elementos da barra com a logo*/
+    margin-right: 5px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.pt-direita{
+    display: flex;
+    float: left;
+    position: relative;
+    top: 6px;
+    justify-content:space-evenly;
+}
+
+.container li{
+    margin-right: 35px;
+    list-style-type:none;
+    
+}
+
+header nav a:hover{
+    color: #aaaaaa;
+}
+
+header nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #242424;
+}
+
+.logo{
+    margin-left: 70px;
+}
+
+/* Background formas */
+.forma1{
+    margin-top: 10px;
+    margin-left: -140px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.forma2{
+    margin-top: 0;
+    margin-left: 1400px;
+    margin-right: 0;
+    width: 10px;
+    height: 100px;
+}
+
+.forma-back2{
+    position: absolute;
+    height: 450px;
+}
+
+/*Botão Amarelo*/
+.botao {
+    padding: 5px 100px 10px 100px; /* Topo | Direita | Inferior | Esquerdo*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 8px;
+    background-color: #FCA60F;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    cursor:pointer;
+}
+
+.botao a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.container-dois{ /*Container principal: Texto e a imagem do Copo*/
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.box-text{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 90px;
+}
+
+.texto{
+    width: 50%;
+    margin-bottom: 100px;
+    color: #242424;
+}
+
+.rede-social a{
+    text-decoration: none;
+    
+}
+
+.rede-social{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.copo{
+    margin: 0px;
+    position: relative;
+    margin-bottom: 40px;
+    height: 450px;
+}
+/*Scroll Down*/
+.scroll{
+    margin-top: 0px;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    align-items: center;
+    margin-left: 45%;
+
+}
+
+.scroll-titulo{
+    font-size: 25px;
+}
+
+.mouse{
+    margin-left: 50px;
+}
